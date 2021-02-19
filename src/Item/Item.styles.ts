@@ -11,10 +11,17 @@ export const Wrapper = styled.div`
 
   button{
       border-radius: 0 0 20px 20px;
+      background-color: #000;
+      color: #fff;
+      
+      :hover{
+        background-color: gray;
+        color:#000;
+      }
   }
-
+ 
   img{
-      max-height: 250px;
+      max-height: 300px;
       object-fit: cover;
       border-radius: 20px 20px 0 0; 
   }
@@ -23,5 +30,9 @@ export const Wrapper = styled.div`
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
     height: 100%;
+
+    h3{
+      text-align: center;
+    }
   }
 `; 
